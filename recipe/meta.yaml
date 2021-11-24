@@ -32,7 +32,6 @@ test:
     - deepecho
     - deepecho.models
   commands:
-    - pip check
     - pytest
   requires:
     - pip
