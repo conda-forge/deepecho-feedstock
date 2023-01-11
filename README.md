@@ -3,7 +3,7 @@ About deepecho
 
 Home: https://github.com/sdv-dev/DeepEcho
 
-Package license: MIT
+Package license: BUSL-1.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/deepecho-feedstock/blob/main/LICENSE.txt)
 
@@ -143,5 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/rdt](https://github.com/conda-forge/rdt/)
+* [@conda-forge/sdv](https://github.com/conda-forge/sdv/)
 
