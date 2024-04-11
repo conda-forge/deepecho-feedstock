@@ -32,7 +32,7 @@ test:
     - deepecho
     - deepecho.models
   commands:
-    - if [ "${{ PYTHON_VERSION }}" < "3.12" ]; then
+    - if [ "${{ PY_VER }}" < "3.12" ]; then
         pip check;
       fi
   requires:
