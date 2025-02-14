@@ -1,5 +1,5 @@
 {% set name = "deepecho" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/deepecho-{{ version }}.tar.gz
-  sha256: e3b2bb876c810953595d1999277aa9c653b33e1cc97662292893aa4608c80d4a
+  sha256: b2bc4b49f067ccc9c13fbfd95035e7babcf1c17800720ee7f45183bde4a663b4
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
   run:
     - numpy >=1.21.0,<2
     - pandas >=1.4.0
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
     - pytorch >=1.9.0
     - tqdm >=4.29,<5
 
