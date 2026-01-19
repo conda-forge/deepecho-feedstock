@@ -1,5 +1,5 @@
 {% set name = "deepecho" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/deepecho-{{ version }}.tar.gz
-  sha256: b2bc4b49f067ccc9c13fbfd95035e7babcf1c17800720ee7f45183bde4a663b4
+  sha256: 1979f85fbc8be0c9567d86d84ebb1a12ee409a1d4c68b6b87b139e4ebfe63747
 
 build:
   number: 0
